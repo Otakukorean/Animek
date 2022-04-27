@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="onepunch.css">
+    <!-- <link rel="stylesheet" href="https://cdn.plyr.io/3.5.6/plyr.css" /> -->
+    <title>One punch man الحلقه 1</title>
+    <style>
+
+    </style>
+</head>
+<body>
+    <header>
+    <nav class="navigation">
+        <div class="nav-container">
+        <i class="fa-solid fa-magnifying-glass"></i>
+        <form action="#" class="form">
+            <input type="text" class="serchbar" name="serchbar" placeholder=" اسم الانمي">
+            <button type="submit" class="serchbtn">ابحث</button>
+        </form>
+        <ul class="listparent act ">
+            <li class="list"><a href="/index.html" class="link">الصفحه الرئيسيه</a></li>
+            <li class="list"><a href="#" class="link">الاقسام</a></li>
+            <li class="list"><a href="#" class="link">انميات الموسم</a></li>
+            <li class="list"><a href="#" class="link">افلام الانمي</a></li>
+        </ul>
+        
+            <div class="menu-icon">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            
+    </div>
+    </nav>
+</header>  
+
+<!-- daitals -->
+<div class="daitals">
+    <div class="card-image">
+        <a href=""><img src="https://cdn.europosters.eu/image/750/posters/one-punch-man-destruction-i61317.jpg" alt="one punch man"></a>
+    </div>
+    <!-- text -->
+    <div class="text">
+    <h2 style="color: #fff;">One Punch Man الحلقه الاولى</h2>
+    <p style="color: #fff;">تتحدث القصة عن سايتاما، بطل أصلع أصبح بطلا لأنه يريد أن ذلك، اكتسب قوة خارقة من التدريب!!! وبالطبع يبحث عن خصوم أقوياء لمقاتلتهم!
+        لكن المشكلة أنَّهُ يقضي على خصومة بلكمة واحدة فقط...
+        هل يستطيع لـ[سايتاما] أن يجد شرير قوي بما فيه الكفاية لـيتحداه ...؟!</p>
+    </div>
+</div>
+
+
+
+
+
+<div class="container" >
+    <iframe src="https://www.4shared.com/web/embed/file/qaFiTqK5ea"  scrolling="no" frameborder="0" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"></iframe>
+    <div class="servers">
+        <h2>: سيرفرات المشاهده</h2>
+        <button class="btn 4shared">4shared</button>
+        <button class="btn mp4upload">mp4upload</button>
+        <button class="btn solidfiles">solidfiles</button>
+        <button class="btn fembed">fembed</button>
+    </div>
+</div>
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script>
+$('.4shared').click(function sheard() {
+    $('iframe').attr('src' , 'https://www.4shared.com/web/embed/file/qaFiTqK5ea')
+}) 
+
+$('.mp4upload').click(function sheard() {
+    $('iframe').attr('src' , 'https://www.mp4upload.com/embed-94ate07a5otw.html')
+}) 
+$('.solidfiles').click(function sheard() {
+    $('iframe').attr('src' , 'https://www.solidfiles.com/e/vzqynAQKrQnD5')
+}) 
+
+$('.fembed').click(function sheard() {
+    $('iframe').attr('src' , 'https://www.fembed.com/v/py8znbmmr-xn08e')
+}) 
+
+//add active class 
+$('.servers button').click(function() {
+    $(this).addClass('active').siblings().removeClass('active');
+})
+
+</script>
+  
+</body>
+</html>

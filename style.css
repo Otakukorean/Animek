@@ -55,7 +55,9 @@ body {
     font-family: 'Cairo', sans-serif;
 }
 /* header */
-
+a {
+    text-decoration: none;
+}
 
 
 /* navigation */
@@ -617,6 +619,8 @@ opacity: 0.3;
         grid-template-columns: 1fr 1fr ;
     }
   }
+
+
   
   
   

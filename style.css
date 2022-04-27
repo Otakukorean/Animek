@@ -327,7 +327,7 @@ header {
     width: 100%;
 }   
 .slide.three{
-    background: linear-gradient(to bottom , rgba(0,0,0,0.1), rgba(0,0,0,1)), url('https://wallpaperaccess.com/full/1099445.png') center center/cover ;
+    background: linear-gradient(to bottom , rgba(0,0,0,0.1), rgba(0,0,0,1)), url('http://m.gettywallpapers.com/wp-content/uploads/2021/08/Demon-Slayer-4k-Wallpaper-1024x576.png') center center/cover ;
     color: #fff;
     background-position: 100%;
     width: 100%;
@@ -498,10 +498,9 @@ opacity: 0.3;
     margin-right: auto;
     
     margin-bottom: 3rem;
-    width: 15.07225rem;
-    height: 22.608375rem;
+    width: 11.375rem;
+    height: 16.375rem;
     border-radius: 40px;
-  
     cursor: pointer;
     transition: 0.4s;
     background:linear-gradient(to bottom , rgba(0,0,0,0.1), rgba(0,0,0,1)) ;
